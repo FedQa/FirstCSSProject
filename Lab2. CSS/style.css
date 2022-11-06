@@ -1,0 +1,129 @@
+@keyframes img-scale {
+    0% {transform: scale(1) }
+    50% {transform: scale(1.5) }
+    100% {transform: scale(1) }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.55em;
+}
+* {
+    box-sizing: border-box;
+}
+p {
+    letter-spacing: 0.03em;
+    line-height: 1.55em;
+    margin: 0;
+    font-size: 18px;
+}
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    line-height: 1.4em;
+}
+.content-wrapper{
+    gap:30px;
+    display: flex;
+    flex-direction: row;
+}
+.container {
+    margin: 100px auto 50px auto;
+    width: 90%;
+    font-size: 0px;
+}
+.header{
+    padding-top: 72px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 72px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.place{
+    font-size: 18px;
+    margin-bottom: 21px;
+}
+.offer-title{
+    font-size:45px;
+    line-height: 1.4em;
+    letter-spacing: 0.07em;
+}
+.offer{
+
+}
+.desc{
+    font-size: 18px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+.btn{
+    border-radius: 10px;
+    transition: 200ms ease all;
+    color: #fff;
+    background: #5737cb;
+    font-size: 18px;
+    padding: 18px 30px;
+    font-weight: 700;
+    display: block;
+    width: 195px;
+    text-align: center;
+}
+.btn:hover{
+    background: #4316e5;
+}
+.btn:active{
+    background: #210688;
+}
+.intro {
+    background: aliceblue;
+    padding: 30px;
+    width: 441px;
+    margin-top: 106px;
+}
+.intro-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+
+.img-right img{
+    width: 100%;
+    height: 100%;
+}
+.nike {
+    font-size: 25px;
+}
+.img{
+    border-radius: 10px;
+}
+.text-left{
+    width: 60%;
+}
+.footer{
+    display: flex;
+    height: 300px;
+    background-color: black;
+}
+.footer-list {
+    margin: auto;
+    color: #fff;
+    font-size: 24px;
+}
